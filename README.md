@@ -11,7 +11,6 @@ The admin also plays an important role for this project as the admin is the one 
 One of the best functionality that the projects include is mailing the customers, so once a user registers to the website, they will recieve a mail for the successful registration to the website, and along with that whenever a user orders any product or the product got shipped from the store, then the user will also receive the email for its confirmation.
 Sometimes, if the user tried to add any item which is out of stock, them they will get an email one the item is available again the stock.
 
-Note: The payment page is created only for demo purpose and its not fully integrated with any payment gateway. So for now any credit card details will be accepted and the demo orders will be placed.
 
 ## Highlights :--
 
@@ -72,7 +71,7 @@ Step 6: Done : Now continue to importing the project. [Don't share the above pas
 
 Step 1: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/shopping-cart.git```> Select master Branch > Next > Next > Finish.
+Step 2: Click On File > Import > Git > Projects From Git > Clone Url
 
 Step 3: Go inside ```Java Resources > src > application.properties``` and update the values as below:
 - a) Update value for db.username and db.password according to your installed mysql credentials.
